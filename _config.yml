@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# Site settings
+title: MYSP
+description: |
+
+owner: MYSP 2017 
+first_published: 2017 
+email: 
+baseurl: "" # the subpath of site, e.g. /blog
+url: "" # the base hostname & protocol for site
+social:
+  twitter: 
+  github: 
+  linkedin-square: 
+  facebook-official: 
+  google-plus-square: 
+
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
