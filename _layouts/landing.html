@@ -37,6 +37,8 @@
 
       function setup() {
           frameRate(30);
+          var canvasDiv = document.getElementById("sketch-holder");
+          //p.fullscreen(true);
           var canvas = createCanvas(displayWidth, displayHeight);
           canvas.parent('sketch-holder');
           sketch.setup();
@@ -52,6 +54,7 @@
       }
 
       function windowResized() {
+        var canvasDiv = document.getElementById("sketch-holder");
         resizeCanvas(windowWidth, windowHeight);
         sketch.setupBoidsForWord(document.getElementById("theText").value, true);
       }
